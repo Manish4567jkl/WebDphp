@@ -15,7 +15,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #e8f4f8; 
+    background-color: #ffcad4; 
 }
 
 .form-container {
@@ -154,6 +154,9 @@ button:hover {
                         <option value="">Select State</option>
                         <option value="west_bengal">West Bengal</option>
                         <option value="jharkhand">Jharkhand</option>
+                        <option value="ende">Ende</option>
+                        <option value="vietnam">Vietnam</option>
+                        <option value="lossantos">Los Santos</option>
                     </select>
                 </div>
                 
