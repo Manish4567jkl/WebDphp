@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>???</title>
     <style>
-        * {
+  * {
     box-sizing: border-box;
 }
 
@@ -15,28 +15,29 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #ffcad4; 
+    background-color: #ffcad4;
+    font-family: Arial, sans-serif;
 }
 
 .form-container {
     width: 480px;
-    padding: 30px;
-    border-radius: 12px;
-    background: linear-gradient(145deg, #ffffff, #f0e3e8);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #ffffff, #f9f1f6);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
     text-align: center;
-    font-size: 2rem;
-    color: #d03e5b; 
-    margin-bottom: 20px;
+    font-size: 2.2rem;
+    color: #d03e5b;
+    margin-bottom: 25px;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .form-row {
@@ -51,9 +52,9 @@ h2 {
 
 label {
     font-size: 1rem;
-    color: #555; 
+    color: #666;
     font-weight: 600;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 input,
@@ -61,22 +62,22 @@ select {
     padding: 12px;
     font-size: 1rem;
     width: 100%;
-    border: 1px solid #ddd; 
-    border-radius: 8px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
     margin-top: 5px;
-    background-color: #fff; 
+    background-color: #fafafa;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 input:focus,
 select:focus {
     outline: none;
-    border-color: #d03e5b; 
-    box-shadow: 0 0 5px rgba(208, 62, 91, 0.5); 
+    border-color: #d03e5b;
+    box-shadow: 0 0 8px rgba(208, 62, 91, 0.4);
 }
 
 input::placeholder {
-    color: #aaa; 
+    color: #bbb;
 }
 
 button {
@@ -84,18 +85,32 @@ button {
     padding: 12px;
     font-size: 1.1rem;
     color: #fff;
-    background-color: #6dcff6; 
+    background-color: #69d0b7;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
-    margin-top: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
-    background-color: #4fb1e0; 
-    transform: translateY(-2px); 
+    background-color: #4fb1a0;
+    transform: translateY(-3px);
 }
+
+.success-message {
+    color: #4caf50;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.error-message {
+    color: #f44336;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
 
     </style>
 </head>
